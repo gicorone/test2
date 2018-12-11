@@ -305,4 +305,3 @@ class DirectedAcyclicGraph(DirectedGraph):
         self.nodes[idx1].append(idx2)
         if self._has_cycles():
             raise ValueError('The Graph has cycles')
-
