@@ -306,5 +306,3 @@ class DirectedAcyclicGraph(DirectedGraph):
         if self._has_cycles():
             raise ValueError('The Graph has cycles')
 
-
-          
